@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://hydroflow-solana-splash.netlify.app" target="_blank"><img src="https://img.shields.io/badge/⚡_LIVE_DEMO-hydroflow--solana--splash.netlify.app-00F5D4?style=for-the-badge&logo=netlify&logoColor=black" alt="Live Demo" /></a>
   <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js 14" /></a>
   <a href="https://threejs.org"><img src="https://img.shields.io/badge/Three.js-r173-049EF4?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" /></a>
   <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" /></a>
@@ -17,13 +18,21 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License" /></a>
 </p>
 
+<p align="center">
+  🌐 <strong>Live Website:</strong> <a href="https://hydroflow-solana-splash.netlify.app" target="_blank"><strong>https://hydroflow-solana-splash.netlify.app</strong></a>
+</p>
+
 ---
 
-[Key Features](#-key-features) • [System Architecture](#-system-architecture) • [3D Engine & Physics](#-3d-engine--physics) • [Tech Stack](#-tech-stack) • [Security & Compliance](#-security--compliance) • [Directory Structure](#-directory-structure) • [Getting Started](#-getting-started) • [Deployment](#-deployment) • [Contributing](#-contributing)
+[🌐 Live Demo](https://hydroflow-solana-splash.netlify.app) • [Key Features](#-key-features) • [3D Engine & Physics](#-3d-engine--physics) • [Tech Stack](#-tech-stack) • [Security & Compliance](#-security--compliance) • [Directory Structure](#-directory-structure) • [Getting Started](#-getting-started) • [Deployment](#-deployment) • [Contributing](#-contributing)
 
 ---
 
 </div>
+
+> 🚀 **Live Production Experience**: Experience the real-time 3D interactive showcase live in your browser at [**https://hydroflow-solana-splash.netlify.app**](https://hydroflow-solana-splash.netlify.app).
+
+---
 
 ## 🌊 Executive Summary
 
@@ -60,49 +69,6 @@
 - **Defensive HTTP Headers**: `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: strict-origin-when-cross-origin`.
 - **Honeypot Bot Defense**: Multi-layered invisible trap fields on forms to intercept automated scraping and spam bots.
 - **Zero-Trust Input Sanitization**: Strips dangerous HTML entities and script payloads before processing form state.
-
----
-
-## 🏗️ System Architecture
-
-```mermaid
-graph TD
-    A[Client Browser] --> B[Next.js 14 Middleware / Security Headers]
-    B --> C[Lenis Smooth Scroll Engine]
-    C --> D[GSAP ScrollTrigger Timeline]
-    C --> E[DOM UI Layer]
-    D --> F[React Three Fiber Canvas]
-    F --> G[Procedural 3D Can Mesh]
-    F --> H[PBR Metallic Shaders & Studio Lights]
-    F --> I[Quaternion Slerp Pointer Tracker]
-    E --> J[Brutalist Hero Section]
-    E --> K[Solana Splash & Target Anchor]
-    E --> L[Bio-Identical Ingredients Matrix]
-    E --> M[Interactive 3D Product Studio]
-    E --> N[Simulated NFC Verification Engine]
-    E --> O[Secure Contact Form + Honeypot]
-```
-
-### Component Architecture Flow
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                          Root Layout & Providers                       │
-│  Lenis Smooth Scroll Provider  •  Security Headers  •  JSON-LD SEO     │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │
-           ┌────────────────────────┴────────────────────────┐
-           ▼                                                 ▼
-┌───────────────────────┐                         ┌───────────────────────┐
-│   Fixed 3D Canvas     │                         │      HTML DOM Tree    │
-│  - R3F Canvas Engine  │  ◄── GSAP Scroll ─────► │  - Navbar & Marquee   │
-│  - Can3D Mesh & Rim   │      Timeline Sync      │  - HeroSection        │
-│  - PBR Metallic Sheen │                         │  - AboutSection       │
-│  - Quaternion Slerp   │                         │  - Product Studio     │
-│  - Hotspot Anchors    │                         │  - Ingredients & Stats│
-│  - Studio Lighting    │                         │  - FAQ & Footer       │
-└───────────────────────┘                         └───────────────────────┘
-```
 
 ---
 
